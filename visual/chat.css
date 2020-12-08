@@ -1,0 +1,161 @@
+
+* { margin: 0; padding: 0; }
+
+body, html {
+  font-family: 'Montserrat', sans-serif;
+  background: #fff;
+  width:  100%;
+  height: 100%;
+  background: #f7f7f7;
+
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* #1 */
+
+.div1 {
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	background: black;
+	color: #fff;
+	border-right: 1px dotted rgba(0,0,0,0.1);
+	box-shadow: 1px 0px 10px rgba(184, 184, 184,0.1);
+}
+
+li { list-style-type: none; }
+a  { text-decoration: none; }
+
+/* -------------------------------------------------------------------------------------------- */
+
+
+
+
+/* Cor: #18165e; Roxo Escudo usado no head  */
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+
+.container_chatbox_head {
+position: relative;
+width: 100%;
+height: 72px;
+background: #32a88f;
+color: #fff;
+box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+}
+
+.chatbox_head_name {
+	position: relative;
+	left: 90px;
+	top: -25px;
+	font-weight: bolder;
+}
+
+
+
+.chatbox_head_config {
+	position: relative;
+	left: 75%;
+	top: -52px;
+	font-weight: bolder;
+	color: #fff;
+	font-size: 24px;cursor: pointer; 
+
+}
+
+a { color: #fff; text-decoration: none; }
+
+
+.chatbox_head_logout {
+	position: relative;
+	left: 91%;
+	top: -50px;
+	font-weight: bolder;
+	color: #fff;
+	font-size: 26px;cursor: pointer; 
+}
+
+
+.container_imagem {
+
+	width: 54px;
+	height: 54px;
+	border-radius: 100%;
+	background: #fff;
+	position: relative;
+	left: 25px;
+	top: 36px;
+	transform: translateY(-50%);
+
+
+}
+
+
+
+.container_imagem img {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	padding: 25px;
+	position: relative;
+	left: 50%;
+	top:  50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+
+
+.container_chatbox_dashboard {
+	position: relative;
+	top: 15px;
+	max-height: 500px;
+	overflow-y: auto;
+}
+
+.container_conversas, .container_contatos{
+	width: 95%;
+	height: 200px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: 15px;
+}
+
+
+
+
+.conversas_vazio, .contatos_vazio {
+	text-align: center; position: relative;	left: 50%; top: 50%; transform: translateX(-50%)  translateY(-50%);
+}
+
+.contatos_footer {
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	width: 50%;
+	border-radius: 5px;
+	text-align: center;
+	background: #45a15a;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	transform: translateX(-50%) translateY(-50%);
+	cursor: pointer;
+	transition: 0.5s;
+
+}
+
+.contatos_footer:hover {
+background: #367d46;
+}
